@@ -1,14 +1,14 @@
 import streamlit as st
 import gspread
-from googleapiclient.errors import HttpError
-from oauth2client.service_account import ServiceAccountCredentials
-from google.oauth2.credentials import Credentials
-from googleapiclient.discovery import build
-from googleapiclient.http import MediaFileUpload
-import pandas as pd
-from gspread_dataframe import set_with_dataframe
-FOLDER_ID="1T3RiNpcYS-vbtSa_AN7z_ZlQbiZtLJfj"
-from main import validate
+# from googleapiclient.errors import HttpError
+# from oauth2client.service_account import ServiceAccountCredentials
+# from google.oauth2.credentials import Credentials
+# from googleapiclient.discovery import build
+# from googleapiclient.http import MediaFileUpload
+# import pandas as pd
+# from gspread_dataframe import set_with_dataframe
+# FOLDER_ID="1T3RiNpcYS-vbtSa_AN7z_ZlQbiZtLJfj"
+# from main import validate
 
 # Function to write data to Google Sheet
 
